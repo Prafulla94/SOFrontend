@@ -1,0 +1,192 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+
+@media only screen
+and (min-height : 100px) and (max-height : 500px){
+	.screenResize{
+		height : 200px !important;
+	}
+}
+
+@media only screen
+and (min-height : 100px) and (max-height : 768px){
+	.screenResize{
+		height : 430px !important;
+	}
+}
+
+@media only screen
+and (min-height : 768px) and (max-height : 800px){
+	.screenResize{
+		height : 500px !important;
+	}
+}
+
+@media only screen
+and (min-height : 800px) and (max-height : 1024px){
+	.screenResize{
+		height : 660px !important;
+	}
+}
+
+@media only screen
+and (min-height : 1024px) and (max-height : 1050px){
+	.screenResize{
+		height : 900px !important;
+	}
+}
+
+@media only screen
+and (min-height : 1050px) and (max-height : 1280px){
+	.screenResize{
+		height : 1200px !important;
+	}
+}
+
+
+
+
+/* login form css from http://www.nextbootstrap.com/2016/12/bootstrap-4-login-form-free-code-example.html    */
+
+.nb-login{
+	max-width:400px;
+	margin:30px auto;
+	background:rgba(255,255,255,0.2);
+	padding:20px 25px;
+	border-radius:2px;
+	box-shadow:0px 0px 10px rgba(255,255,255,0.05);
+	
+}
+.nb-login h3{	
+	margin:15px 0px 25px 0px;
+	color:#fff;
+}
+.nb-login form{
+	margin-bottom:15px;
+	color:#fff;
+}
+.nb-login form input,
+.nb-login form textarea{
+	box-shadow:none !important;
+	padding:6px 5px;
+	color:#fff;
+	border:0px;
+	border-bottom:1px solid rgba(255,255,255,0.5);
+	background:transparent;
+	border-radius:0px;
+}
+.nb-login form input:focus{
+  background: rgba(255,255,255,0.05);
+  color:#FFF;
+}
+.nb-login form ::-webkit-input-placeholder {
+   color: rgba(255,255,255,0.5);
+    color:#FFF;
+}
+.nb-login form ::-moz-placeholder {
+   color: rgba(255,255,255,0.5);
+    color:#FFF;
+}
+.nb-login form :-ms-input-placeholder {
+   color: rgba(255,255,255,0.5);
+    color:#FFF;
+}
+.nb-login form .btn{
+	border:0px;
+	border-radius:25px;
+	padding:10px 20px;
+	border:1px solid rgba(255,255,255,0.5);
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:600;
+	background:transparent;
+	margin-top:15px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.nb-login form .btn:hover{
+	background:#fff;
+	color:#666;
+}
+
+.nb-login .center{
+  text-align: center;
+}
+.nb-login .or{
+  color: #FFF;
+}
+
+
+/* -----------------------  login form ended -----------------------   */
+/* -----------------------  Material Icon  -----------------------   */
+.material-icons.orange600 { color: lightseagreen; }
+.logout{
+  color: darkred;
+}
+.logout:hover{
+  color: darkred;
+}
+.login{
+	color: blueviolet;
+}
+.page{
+	background-color: aquamarine;
+}
+.link:hover{
+	color: darkred;
+	text-shadow: #666;
+}
+.icon:hover{
+	color: black;
+	background-color: #81dde2;
+}
+.fixed{
+	position: absolute !important;
+}
+.onlyicon:hover{
+	color:deepskyblue;
+}
+.sideborder{
+	border-width: 10em;
+	border-left: thick double green;
+}
+/* -----------------------  for Logout  -----------------------   */
+
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+/* -----------------------  for Top Toolbar  -----------------------   */
+
+.header-toolbar {
+position: fixed;
+}
+.toolbar-shadow{
+box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}  
+.universal-spacer{
+	padding-top: 1em
+}
+.border-right{
+	border-right:1px solid rgba(255,255,255,0.5);
+}
+.sidebar-color:hover{
+	color: white;
+	background-color: #09b9f9;
+}
+.icon_delete:hover{
+	color: red;
+}
+.icon_edit:hover{
+	color: darkviolet;
+}
+.options_toolbar:hover{
+	color: #efec86;
+}
